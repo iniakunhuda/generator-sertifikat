@@ -1,6 +1,3 @@
-# Generator Sertifikat
-
-
 ## Tentang
 Generator sertifikat adalah website untuk membantu kamu membuat sertifikat dengan mudah
 
@@ -8,7 +5,7 @@ Generator sertifikat adalah website untuk membantu kamu membuat sertifikat denga
 url
 
 ## Tampilan
-![gif](https://github.com/iniakunhuda/generator-sertifikat/public/sertifikat-gif.gif)
+![gif](https://github.com/iniakunhuda/generator-sertifikat/blob/master/public/sertifikat-gif.gif)
 
 ## Versi
  - ### 0.1
