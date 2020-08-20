@@ -1,24 +1,17 @@
-# sertifikat-generator
+# Generator Sertifikat
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Tentang
+Generator sertifikat adalah website untuk membantu kamu membuat sertifikat dengan mudah
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Website
+url
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Tampilan
+![gif](https://github.com/iniakunhuda/generator-sertifikat/public/sertifikat-gif.gif)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Versi
+ - ### 0.1
+    - Upload template sertifikat
+    - Generator nama peserta tidak terbatas
+    - Export to Zip

@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <EditorTui/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EditorTui from './components/EditorTui.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    EditorTui
+  },
+  mounted() {
+    document.title = "Generator Sertifikat"
   }
 }
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("https://cdn.jsdelivr.net/npm/tui-image-editor@3.10.0/dist/tui-image-editor.css");
+.tui-image-editor-container {
+  min-height: 800px;
+}
+body, html {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 </style>
